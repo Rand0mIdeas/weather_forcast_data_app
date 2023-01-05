@@ -1,7 +1,7 @@
 import requests
 
-api_key = "68518c57dae8f97bd37069be43a4d4d7"
-
+# Openweather.org is the service used.
+api_key = {}
 
 def get_data(place, forecast_days=None):
     url = f"http://api.openweathermap.org/data/2.5/forecast?q={place}&appid={api_key}"
